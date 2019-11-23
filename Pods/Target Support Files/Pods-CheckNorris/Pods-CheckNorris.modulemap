@@ -1,0 +1,6 @@
+framework module Pods_CheckNorris {
+  umbrella header "Pods-CheckNorris-umbrella.h"
+
+  export *
+  module * { export * }
+}

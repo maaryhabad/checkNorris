@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2490858929458738DFAECF0D /* Pods_CheckNorris_CheckNorrisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DAB4F3CAACE1E108FF2C01 /* Pods_CheckNorris_CheckNorrisUITests.framework */; };
+		5437A1A1657F795C0B378A95 /* Pods_CheckNorrisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2533AD8629A0255B86FC19B3 /* Pods_CheckNorrisTests.framework */; };
+		96407107E796EAFD3E7297F8 /* Pods_CheckNorris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45B0EFF181A2B721900E38A /* Pods_CheckNorris.framework */; };
 		CD4FA9F12388D55600E4B92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FA9F02388D55600E4B92E /* AppDelegate.swift */; };
-		CD4FA9F32388D55600E4B92E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FA9F22388D55600E4B92E /* SceneDelegate.swift */; };
-		CD4FA9F52388D55600E4B92E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FA9F42388D55600E4B92E /* ViewController.swift */; };
 		CD4FA9F82388D55600E4B92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4FA9F62388D55600E4B92E /* Main.storyboard */; };
 		CD4FA9FA2388D55900E4B92E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4FA9F92388D55900E4B92E /* Assets.xcassets */; };
 		CD4FA9FD2388D55900E4B92E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4FA9FB2388D55900E4B92E /* LaunchScreen.storyboard */; };
 		CD4FAA082388D55A00E4B92E /* CheckNorrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA072388D55A00E4B92E /* CheckNorrisTests.swift */; };
 		CD4FAA132388D55A00E4B92E /* CheckNorrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA122388D55A00E4B92E /* CheckNorrisUITests.swift */; };
+		CD4FAA222388D7BC00E4B92E /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4FAA202388D7BC00E4B92E /* Game.storyboard */; };
+		CD4FAA282388DA1500E4B92E /* SwipeableCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA272388DA1500E4B92E /* SwipeableCardViewController.swift */; };
+		CD4FAA2F2388DA5300E4B92E /* Categorias.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4FAA292388DA5200E4B92E /* Categorias.storyboard */; };
+		CD4FAA322388DA5300E4B92E /* Busca.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4FAA2C2388DA5300E4B92E /* Busca.storyboard */; };
+		CD4FAA332388DA5300E4B92E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA2D2388DA5300E4B92E /* SceneDelegate.swift */; };
+		CD4FAA342388DA5300E4B92E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA2E2388DA5300E4B92E /* ViewController.swift */; };
+		CD4FAA392388DB9800E4B92E /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA382388DB9800E4B92E /* Fact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F19E297D151E21D75035A26 /* Pods-CheckNorris-CheckNorrisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckNorris-CheckNorrisUITests.debug.xcconfig"; path = "Target Support Files/Pods-CheckNorris-CheckNorrisUITests/Pods-CheckNorris-CheckNorrisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2533AD8629A0255B86FC19B3 /* Pods_CheckNorrisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckNorrisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EB65E8C72465545310B905 /* Pods-CheckNorris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckNorris.debug.xcconfig"; path = "Target Support Files/Pods-CheckNorris/Pods-CheckNorris.debug.xcconfig"; sourceTree = "<group>"; };
+		5A4AC8EC7DAFFE689ED1B2A2 /* Pods-CheckNorris-CheckNorrisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckNorris-CheckNorrisUITests.release.xcconfig"; path = "Target Support Files/Pods-CheckNorris-CheckNorrisUITests/Pods-CheckNorris-CheckNorrisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A0DAB4F3CAACE1E108FF2C01 /* Pods_CheckNorris_CheckNorrisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckNorris_CheckNorrisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99D87198720A4BEF818C02C /* Pods-CheckNorris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckNorris.release.xcconfig"; path = "Target Support Files/Pods-CheckNorris/Pods-CheckNorris.release.xcconfig"; sourceTree = "<group>"; };
 		CD4FA9ED2388D55600E4B92E /* CheckNorris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckNorris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4FA9F02388D55600E4B92E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD4FA9F22388D55600E4B92E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD4FA9F42388D55600E4B92E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD4FA9F72388D55600E4B92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD4FA9F92388D55900E4B92E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD4FA9FC2388D55900E4B92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,16 @@
 		CD4FAA0E2388D55A00E4B92E /* CheckNorrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckNorrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4FAA122388D55A00E4B92E /* CheckNorrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckNorrisUITests.swift; sourceTree = "<group>"; };
 		CD4FAA142388D55A00E4B92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4FAA212388D7BC00E4B92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CheckNorris/Base.lproj/Game.storyboard; sourceTree = "<group>"; };
+		CD4FAA272388DA1500E4B92E /* SwipeableCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwipeableCardViewController.swift; path = CheckNorris/SwipeableCardViewController.swift; sourceTree = "<group>"; };
+		CD4FAA292388DA5200E4B92E /* Categorias.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Categorias.storyboard; path = CheckNorris/Categorias.storyboard; sourceTree = "<group>"; };
+		CD4FAA2C2388DA5300E4B92E /* Busca.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Busca.storyboard; path = CheckNorris/Busca.storyboard; sourceTree = "<group>"; };
+		CD4FAA2D2388DA5300E4B92E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = CheckNorris/SceneDelegate.swift; sourceTree = "<group>"; };
+		CD4FAA2E2388DA5300E4B92E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = CheckNorris/ViewController.swift; sourceTree = "<group>"; };
+		CD4FAA382388DB9800E4B92E /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fact.swift; path = Model/Fact.swift; sourceTree = "<group>"; };
+		DE681458094742C2FD404ED5 /* Pods-CheckNorrisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckNorrisTests.release.xcconfig"; path = "Target Support Files/Pods-CheckNorrisTests/Pods-CheckNorrisTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2AE382ACADB94E0DCAF8FEE /* Pods-CheckNorrisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckNorrisTests.debug.xcconfig"; path = "Target Support Files/Pods-CheckNorrisTests/Pods-CheckNorrisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F45B0EFF181A2B721900E38A /* Pods_CheckNorris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckNorris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96407107E796EAFD3E7297F8 /* Pods_CheckNorris.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5437A1A1657F795C0B378A95 /* Pods_CheckNorrisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2490858929458738DFAECF0D /* Pods_CheckNorris_CheckNorrisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51B66923CE64DC8C1A66BA65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F45B0EFF181A2B721900E38A /* Pods_CheckNorris.framework */,
+				A0DAB4F3CAACE1E108FF2C01 /* Pods_CheckNorris_CheckNorrisUITests.framework */,
+				2533AD8629A0255B86FC19B3 /* Pods_CheckNorrisTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96B9EF5530A0A11FA72DB311 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51EB65E8C72465545310B905 /* Pods-CheckNorris.debug.xcconfig */,
+				A99D87198720A4BEF818C02C /* Pods-CheckNorris.release.xcconfig */,
+				1F19E297D151E21D75035A26 /* Pods-CheckNorris-CheckNorrisUITests.debug.xcconfig */,
+				5A4AC8EC7DAFFE689ED1B2A2 /* Pods-CheckNorris-CheckNorrisUITests.release.xcconfig */,
+				F2AE382ACADB94E0DCAF8FEE /* Pods-CheckNorrisTests.debug.xcconfig */,
+				DE681458094742C2FD404ED5 /* Pods-CheckNorrisTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CD4FA9E42388D55600E4B92E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +132,8 @@
 				CD4FAA062388D55A00E4B92E /* CheckNorrisTests */,
 				CD4FAA112388D55A00E4B92E /* CheckNorrisUITests */,
 				CD4FA9EE2388D55600E4B92E /* Products */,
+				96B9EF5530A0A11FA72DB311 /* Pods */,
+				51B66923CE64DC8C1A66BA65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +150,21 @@
 		CD4FA9EF2388D55600E4B92E /* CheckNorris */ = {
 			isa = PBXGroup;
 			children = (
+				CD4FAA372388DADB00E4B92E /* Controller */,
+				CD4FAA362388DAA000E4B92E /* View */,
+				CD4FAA352388DA9B00E4B92E /* Model */,
 				CD4FA9F02388D55600E4B92E /* AppDelegate.swift */,
-				CD4FA9F22388D55600E4B92E /* SceneDelegate.swift */,
-				CD4FA9F42388D55600E4B92E /* ViewController.swift */,
+				CD4FAA2C2388DA5300E4B92E /* Busca.storyboard */,
+				CD4FAA292388DA5200E4B92E /* Categorias.storyboard */,
+				CD4FAA2D2388DA5300E4B92E /* SceneDelegate.swift */,
+				CD4FAA2E2388DA5300E4B92E /* ViewController.swift */,
+				CD4FAA202388D7BC00E4B92E /* Game.storyboard */,
 				CD4FA9F62388D55600E4B92E /* Main.storyboard */,
 				CD4FA9F92388D55900E4B92E /* Assets.xcassets */,
 				CD4FA9FB2388D55900E4B92E /* LaunchScreen.storyboard */,
 				CD4FA9FE2388D55900E4B92E /* Info.plist */,
+				CD4FAA272388DA1500E4B92E /* SwipeableCardViewController.swift */,
+				CD4FAA382388DB9800E4B92E /* Fact.swift */,
 			);
 			path = CheckNorris;
 			sourceTree = "<group>";
@@ -128,6 +187,27 @@
 			path = CheckNorrisUITests;
 			sourceTree = "<group>";
 		};
+		CD4FAA352388DA9B00E4B92E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD4FAA362388DAA000E4B92E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD4FAA372388DADB00E4B92E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD4FAA172388D55A00E4B92E /* Build configuration list for PBXNativeTarget "CheckNorris" */;
 			buildPhases = (
+				3939B504A2D91CF6CEFA7119 /* [CP] Check Pods Manifest.lock */,
 				CD4FA9E92388D55600E4B92E /* Sources */,
 				CD4FA9EA2388D55600E4B92E /* Frameworks */,
 				CD4FA9EB2388D55600E4B92E /* Resources */,
+				68D1592DEFC8D5CACCB41F05 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD4FAA1A2388D55A00E4B92E /* Build configuration list for PBXNativeTarget "CheckNorrisTests" */;
 			buildPhases = (
+				AA9C5AEB815D20525867C55B /* [CP] Check Pods Manifest.lock */,
 				CD4FA9FF2388D55A00E4B92E /* Sources */,
 				CD4FAA002388D55A00E4B92E /* Frameworks */,
 				CD4FAA012388D55A00E4B92E /* Resources */,
@@ -170,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD4FAA1D2388D55A00E4B92E /* Build configuration list for PBXNativeTarget "CheckNorrisUITests" */;
 			buildPhases = (
+				9C426226C25443887FE67B23 /* [CP] Check Pods Manifest.lock */,
 				CD4FAA0A2388D55A00E4B92E /* Sources */,
 				CD4FAA0B2388D55A00E4B92E /* Frameworks */,
 				CD4FAA0C2388D55A00E4B92E /* Resources */,
+				A40F034BE2ED36CC162829EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +317,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4FAA222388D7BC00E4B92E /* Game.storyboard in Resources */,
+				CD4FAA322388DA5300E4B92E /* Busca.storyboard in Resources */,
 				CD4FA9FD2388D55900E4B92E /* LaunchScreen.storyboard in Resources */,
 				CD4FA9FA2388D55900E4B92E /* Assets.xcassets in Resources */,
+				CD4FAA2F2388DA5300E4B92E /* Categorias.storyboard in Resources */,
 				CD4FA9F82388D55600E4B92E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +342,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3939B504A2D91CF6CEFA7119 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckNorris-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68D1592DEFC8D5CACCB41F05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckNorris/Pods-CheckNorris-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckNorris/Pods-CheckNorris-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CheckNorris/Pods-CheckNorris-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C426226C25443887FE67B23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckNorris-CheckNorrisUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A40F034BE2ED36CC162829EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckNorris-CheckNorrisUITests/Pods-CheckNorris-CheckNorrisUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckNorris-CheckNorrisUITests/Pods-CheckNorris-CheckNorrisUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CheckNorris-CheckNorrisUITests/Pods-CheckNorris-CheckNorrisUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA9C5AEB815D20525867C55B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckNorrisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD4FA9E92388D55600E4B92E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4FA9F52388D55600E4B92E /* ViewController.swift in Sources */,
+				CD4FAA342388DA5300E4B92E /* ViewController.swift in Sources */,
+				CD4FAA332388DA5300E4B92E /* SceneDelegate.swift in Sources */,
+				CD4FAA392388DB9800E4B92E /* Fact.swift in Sources */,
 				CD4FA9F12388D55600E4B92E /* AppDelegate.swift in Sources */,
-				CD4FA9F32388D55600E4B92E /* SceneDelegate.swift in Sources */,
+				CD4FAA282388DA1500E4B92E /* SwipeableCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +504,14 @@
 				CD4FA9FC2388D55900E4B92E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4FAA202388D7BC00E4B92E /* Game.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4FAA212388D7BC00E4B92E /* Base */,
+			);
+			name = Game.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,6 +633,7 @@
 		};
 		CD4FAA182388D55A00E4B92E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51EB65E8C72465545310B905 /* Pods-CheckNorris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +652,7 @@
 		};
 		CD4FAA192388D55A00E4B92E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99D87198720A4BEF818C02C /* Pods-CheckNorris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +671,7 @@
 		};
 		CD4FAA1B2388D55A00E4B92E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AE382ACADB94E0DCAF8FEE /* Pods-CheckNorrisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +694,7 @@
 		};
 		CD4FAA1C2388D55A00E4B92E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE681458094742C2FD404ED5 /* Pods-CheckNorrisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +717,7 @@
 		};
 		CD4FAA1E2388D55A00E4B92E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F19E297D151E21D75035A26 /* Pods-CheckNorris-CheckNorrisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +738,7 @@
 		};
 		CD4FAA1F2388D55A00E4B92E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4AC8EC7DAFFE689ED1B2A2 /* Pods-CheckNorris-CheckNorrisUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
