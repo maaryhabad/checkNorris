@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD4FA9F12388D55600E4B92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FA9F02388D55600E4B92E /* AppDelegate.swift */; };
+		CD4FA9F32388D55600E4B92E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FA9F22388D55600E4B92E /* SceneDelegate.swift */; };
+		CD4FA9F52388D55600E4B92E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FA9F42388D55600E4B92E /* ViewController.swift */; };
+		CD4FA9F82388D55600E4B92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4FA9F62388D55600E4B92E /* Main.storyboard */; };
+		CD4FA9FA2388D55900E4B92E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4FA9F92388D55900E4B92E /* Assets.xcassets */; };
+		CD4FA9FD2388D55900E4B92E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4FA9FB2388D55900E4B92E /* LaunchScreen.storyboard */; };
+		CD4FAA082388D55A00E4B92E /* CheckNorrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA072388D55A00E4B92E /* CheckNorrisTests.swift */; };
+		CD4FAA132388D55A00E4B92E /* CheckNorrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA122388D55A00E4B92E /* CheckNorrisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD4FAA042388D55A00E4B92E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD4FA9E52388D55600E4B92E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4FA9EC2388D55600E4B92E;
+			remoteInfo = CheckNorris;
+		};
+		CD4FAA0F2388D55A00E4B92E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD4FA9E52388D55600E4B92E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD4FA9EC2388D55600E4B92E;
+			remoteInfo = CheckNorris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD4FA9ED2388D55600E4B92E /* CheckNorris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckNorris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4FA9F02388D55600E4B92E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD4FA9F22388D55600E4B92E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD4FA9F42388D55600E4B92E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD4FA9F72388D55600E4B92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD4FA9F92388D55900E4B92E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD4FA9FC2388D55900E4B92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD4FA9FE2388D55900E4B92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4FAA032388D55A00E4B92E /* CheckNorrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckNorrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4FAA072388D55A00E4B92E /* CheckNorrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckNorrisTests.swift; sourceTree = "<group>"; };
+		CD4FAA092388D55A00E4B92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4FAA0E2388D55A00E4B92E /* CheckNorrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckNorrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4FAA122388D55A00E4B92E /* CheckNorrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckNorrisUITests.swift; sourceTree = "<group>"; };
+		CD4FAA142388D55A00E4B92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD4FA9EA2388D55600E4B92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4FAA002388D55A00E4B92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4FAA0B2388D55A00E4B92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD4FA9E42388D55600E4B92E = {
+			isa = PBXGroup;
+			children = (
+				CD4FA9EF2388D55600E4B92E /* CheckNorris */,
+				CD4FAA062388D55A00E4B92E /* CheckNorrisTests */,
+				CD4FAA112388D55A00E4B92E /* CheckNorrisUITests */,
+				CD4FA9EE2388D55600E4B92E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD4FA9EE2388D55600E4B92E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD4FA9ED2388D55600E4B92E /* CheckNorris.app */,
+				CD4FAA032388D55A00E4B92E /* CheckNorrisTests.xctest */,
+				CD4FAA0E2388D55A00E4B92E /* CheckNorrisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4FA9EF2388D55600E4B92E /* CheckNorris */ = {
+			isa = PBXGroup;
+			children = (
+				CD4FA9F02388D55600E4B92E /* AppDelegate.swift */,
+				CD4FA9F22388D55600E4B92E /* SceneDelegate.swift */,
+				CD4FA9F42388D55600E4B92E /* ViewController.swift */,
+				CD4FA9F62388D55600E4B92E /* Main.storyboard */,
+				CD4FA9F92388D55900E4B92E /* Assets.xcassets */,
+				CD4FA9FB2388D55900E4B92E /* LaunchScreen.storyboard */,
+				CD4FA9FE2388D55900E4B92E /* Info.plist */,
+			);
+			path = CheckNorris;
+			sourceTree = "<group>";
+		};
+		CD4FAA062388D55A00E4B92E /* CheckNorrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4FAA072388D55A00E4B92E /* CheckNorrisTests.swift */,
+				CD4FAA092388D55A00E4B92E /* Info.plist */,
+			);
+			path = CheckNorrisTests;
+			sourceTree = "<group>";
+		};
+		CD4FAA112388D55A00E4B92E /* CheckNorrisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD4FAA122388D55A00E4B92E /* CheckNorrisUITests.swift */,
+				CD4FAA142388D55A00E4B92E /* Info.plist */,
+			);
+			path = CheckNorrisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD4FA9EC2388D55600E4B92E /* CheckNorris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4FAA172388D55A00E4B92E /* Build configuration list for PBXNativeTarget "CheckNorris" */;
+			buildPhases = (
+				CD4FA9E92388D55600E4B92E /* Sources */,
+				CD4FA9EA2388D55600E4B92E /* Frameworks */,
+				CD4FA9EB2388D55600E4B92E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckNorris;
+			productName = CheckNorris;
+			productReference = CD4FA9ED2388D55600E4B92E /* CheckNorris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD4FAA022388D55A00E4B92E /* CheckNorrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4FAA1A2388D55A00E4B92E /* Build configuration list for PBXNativeTarget "CheckNorrisTests" */;
+			buildPhases = (
+				CD4FA9FF2388D55A00E4B92E /* Sources */,
+				CD4FAA002388D55A00E4B92E /* Frameworks */,
+				CD4FAA012388D55A00E4B92E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4FAA052388D55A00E4B92E /* PBXTargetDependency */,
+			);
+			name = CheckNorrisTests;
+			productName = CheckNorrisTests;
+			productReference = CD4FAA032388D55A00E4B92E /* CheckNorrisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD4FAA0D2388D55A00E4B92E /* CheckNorrisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4FAA1D2388D55A00E4B92E /* Build configuration list for PBXNativeTarget "CheckNorrisUITests" */;
+			buildPhases = (
+				CD4FAA0A2388D55A00E4B92E /* Sources */,
+				CD4FAA0B2388D55A00E4B92E /* Frameworks */,
+				CD4FAA0C2388D55A00E4B92E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4FAA102388D55A00E4B92E /* PBXTargetDependency */,
+			);
+			name = CheckNorrisUITests;
+			productName = CheckNorrisUITests;
+			productReference = CD4FAA0E2388D55A00E4B92E /* CheckNorrisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD4FA9E52388D55600E4B92E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Mariana Beilune Abad";
+				TargetAttributes = {
+					CD4FA9EC2388D55600E4B92E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					CD4FAA022388D55A00E4B92E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = CD4FA9EC2388D55600E4B92E;
+					};
+					CD4FAA0D2388D55A00E4B92E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = CD4FA9EC2388D55600E4B92E;
+					};
+				};
+			};
+			buildConfigurationList = CD4FA9E82388D55600E4B92E /* Build configuration list for PBXProject "CheckNorris" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD4FA9E42388D55600E4B92E;
+			productRefGroup = CD4FA9EE2388D55600E4B92E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD4FA9EC2388D55600E4B92E /* CheckNorris */,
+				CD4FAA022388D55A00E4B92E /* CheckNorrisTests */,
+				CD4FAA0D2388D55A00E4B92E /* CheckNorrisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD4FA9EB2388D55600E4B92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4FA9FD2388D55900E4B92E /* LaunchScreen.storyboard in Resources */,
+				CD4FA9FA2388D55900E4B92E /* Assets.xcassets in Resources */,
+				CD4FA9F82388D55600E4B92E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4FAA012388D55A00E4B92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4FAA0C2388D55A00E4B92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD4FA9E92388D55600E4B92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4FA9F52388D55600E4B92E /* ViewController.swift in Sources */,
+				CD4FA9F12388D55600E4B92E /* AppDelegate.swift in Sources */,
+				CD4FA9F32388D55600E4B92E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4FA9FF2388D55A00E4B92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4FAA082388D55A00E4B92E /* CheckNorrisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4FAA0A2388D55A00E4B92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4FAA132388D55A00E4B92E /* CheckNorrisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD4FAA052388D55A00E4B92E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4FA9EC2388D55600E4B92E /* CheckNorris */;
+			targetProxy = CD4FAA042388D55A00E4B92E /* PBXContainerItemProxy */;
+		};
+		CD4FAA102388D55A00E4B92E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD4FA9EC2388D55600E4B92E /* CheckNorris */;
+			targetProxy = CD4FAA0F2388D55A00E4B92E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD4FA9F62388D55600E4B92E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4FA9F72388D55600E4B92E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4FA9FB2388D55900E4B92E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4FA9FC2388D55900E4B92E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4FAA152388D55A00E4B92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD4FAA162388D55A00E4B92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD4FAA182388D55A00E4B92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADP5XER6GT;
+				INFOPLIST_FILE = CheckNorris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariabad.CheckNorris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD4FAA192388D55A00E4B92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADP5XER6GT;
+				INFOPLIST_FILE = CheckNorris/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariabad.CheckNorris;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD4FAA1B2388D55A00E4B92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADP5XER6GT;
+				INFOPLIST_FILE = CheckNorrisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariabad.CheckNorrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckNorris.app/CheckNorris";
+			};
+			name = Debug;
+		};
+		CD4FAA1C2388D55A00E4B92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADP5XER6GT;
+				INFOPLIST_FILE = CheckNorrisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariabad.CheckNorrisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckNorris.app/CheckNorris";
+			};
+			name = Release;
+		};
+		CD4FAA1E2388D55A00E4B92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADP5XER6GT;
+				INFOPLIST_FILE = CheckNorrisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariabad.CheckNorrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckNorris;
+			};
+			name = Debug;
+		};
+		CD4FAA1F2388D55A00E4B92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADP5XER6GT;
+				INFOPLIST_FILE = CheckNorrisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariabad.CheckNorrisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckNorris;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD4FA9E82388D55600E4B92E /* Build configuration list for PBXProject "CheckNorris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4FAA152388D55A00E4B92E /* Debug */,
+				CD4FAA162388D55A00E4B92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4FAA172388D55A00E4B92E /* Build configuration list for PBXNativeTarget "CheckNorris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4FAA182388D55A00E4B92E /* Debug */,
+				CD4FAA192388D55A00E4B92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4FAA1A2388D55A00E4B92E /* Build configuration list for PBXNativeTarget "CheckNorrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4FAA1B2388D55A00E4B92E /* Debug */,
+				CD4FAA1C2388D55A00E4B92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4FAA1D2388D55A00E4B92E /* Build configuration list for PBXNativeTarget "CheckNorrisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4FAA1E2388D55A00E4B92E /* Debug */,
+				CD4FAA1F2388D55A00E4B92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD4FA9E52388D55600E4B92E /* Project object */;
+}
