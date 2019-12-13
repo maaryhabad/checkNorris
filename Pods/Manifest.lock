@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: 5996def9cf88c5e047caf980429f46cf26108f07
+PODS:
+  - AnimatedCollectionViewLayout (1.0.1)
+  - SwiftLint (0.38.0)
+
+DEPENDENCIES:
+  - AnimatedCollectionViewLayout
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - AnimatedCollectionViewLayout
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  AnimatedCollectionViewLayout: 00f0997fd26f0fd02d8b99765023b95570b5d826
+  SwiftLint: 4105f061f9812b214568b736dab580ab2c73a582
+
+PODFILE CHECKSUM: 39df2a28d95348b210527dc04ac546f60dae6123
 
 COCOAPODS: 1.8.4

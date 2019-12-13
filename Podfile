@@ -6,6 +6,8 @@ target 'CheckNorris' do
   use_frameworks!
 
   # Pods for CheckNorris
+  pod 'SwiftLint'
+  pod 'AnimatedCollectionViewLayout'
 
 
   target 'CheckNorrisTests' do

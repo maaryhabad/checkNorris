@@ -10,27 +10,26 @@ import Foundation
 
 class Fact {
     
-    var id: String
+    var factId: String
     var url: String
     var value: String
     var categorias: [String]
     
-    init(id: String, url: String, value: String, categorias: [String]) {
-        self.id = id
+    init(factId: String, url: String, value: String, categorias: [String]) {
+        self.factId = factId
         self.url = url
         self.value = value
         self.categorias = categorias
     }
     
     static func mapToObject(factData: [String: Any]) -> Fact {
-        let id: String = factData["id"] as! String
-        let url: String = factData["url"] as! String
-        let value: String = factData["value"] as! String
-        let categorias: [String] = factData["categories"] as! [String]
+        let factId: String = (factData["id"] as? String)!
+        let url: String = (factData["url"] as? String)!
+        let value: String = (factData["value"] as? String)!
+        let categorias: [String] = (factData["categories"] as? [String])!
         
-        let newFact = Fact(id: id, url: url, value: value, categorias: categorias)
+        let newFact = Fact(factId: factId, url: url, value: value, categorias: categorias)
         
         return newFact
     }
 }
-

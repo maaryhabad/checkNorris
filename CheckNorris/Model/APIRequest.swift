@@ -39,29 +39,26 @@ class APIRequest {
         let session = URLSession.shared
         let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) -> Void in
             if (error != nil) {
-                print(error)
+                print(error as Any)
             } else {
                 let httpResponse = response as? HTTPURLResponse
-                print(httpResponse)
+                print(httpResponse as Any)
                 do {
                     let json = try JSONSerialization.jsonObject(with: data!, options: [])
                     print(json)
-                    var factData = json
+                    let factData = json
                     
-                    let newFact = Fact.mapToObject(factData: factData as! [String : Any])
-                    Model.instance.Facts.append(newFact)
+                    let newFact = Fact.mapToObject(factData: (factData as? [String:Any])!)
+                    Model.instance.facts.append(newFact)
                     
                     NotificationCenter.default.post(name: NSNotification.Name("recebeUmFato"), object: nil,
-                            userInfo: ["newFact" : newFact])
+                            userInfo: ["newFact":newFact])
                     
-                    print(Model.instance.Facts.count)
+                    print(Model.instance.facts.count)
                     
                 } catch {
                     print("JSON error: \(error.localizedDescription)")
                 }
-                
-        
-                //popula um modelo!
             }
         })
 

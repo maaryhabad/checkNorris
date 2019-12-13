@@ -8,8 +8,6 @@
 
 import Foundation
 
-import Foundation
-
 class Model {
     static let instance = Model()
     
@@ -17,7 +15,5 @@ class Model {
         
     }
     
-    var Facts: [Fact] = []
+    var facts: [Fact] = []
 }
-
-

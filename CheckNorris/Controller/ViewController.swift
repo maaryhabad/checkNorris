@@ -7,15 +7,19 @@
 //
 
 import UIKit
+import AnimatedCollectionViewLayout
 
 class ViewController: UIViewController {
 
    @IBOutlet weak var factLabel: UILabel!
     
+    var selector = #selector(receiveFact)
+    var notification = NSNotification.Name("recebeUmFato")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        NotificationCenter.default.addObserver(self, selector: #selector(receiveFact), name: NSNotification.Name("recebeUmFato"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: selector, name: notification, object: nil)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -38,7 +42,4 @@ class ViewController: UIViewController {
             updateData(fact: fact)
         }
     }
-
-
 }
-

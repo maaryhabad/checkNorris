@@ -6,19 +6,73 @@
 	objectVersion = 51;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		18B0C074BFBF0A6DFAF7699BE09D3572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1F70E2FE372AC5B63AF9071765268FE3 /* Pods-CheckNorrisTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 359F66771970D7774F3705C1162749ED /* Pods-CheckNorrisTests-dummy.m */; };
-		414ABBC6ACCCD0AB8F1C6B35899DE928 /* Pods-CheckNorris-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FDD303FB8F9F85C2419BBC0082C54E /* Pods-CheckNorris-dummy.m */; };
+		1087DDB5BEE92B20B6A314DF8C2B9CAF /* Pods-CheckNorris-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD44DCD6EB6B48A6A8FA673A604EF78 /* Pods-CheckNorris-dummy.m */; };
+		1F70E2FE372AC5B63AF9071765268FE3 /* Pods-CheckNorrisTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E546398EB3A702AC8F2921F1060FD /* Pods-CheckNorrisTests-dummy.m */; };
+		3115123237761DC9A59F2A4BABD4E858 /* CubeAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F770C8EA2295FEBAB855EFE6898D14BD /* CubeAttributesAnimator.swift */; };
+		34709768CC9DB6B015E44DC2E86F1C82 /* ParallaxAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558C13F7B04D9C15E77A4F2E248F124 /* ParallaxAttributesAnimator.swift */; };
+		396F78274FB64D8AF8F3101425B71AD5 /* Pods-CheckNorris-CheckNorrisUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 215E5FA24E06C6C4E1CEE4267E58166E /* Pods-CheckNorris-CheckNorrisUITests-dummy.m */; };
 		41B9CEB18729670838641D675B7DB638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		73A23FE0CEF346DCD478055464D0113D /* Pods-CheckNorris-CheckNorrisUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA22639CAA4DEBD91773AEBE2BBCF7A /* Pods-CheckNorris-CheckNorrisUITests-dummy.m */; };
-		77CB5D729A2234F366BB21E0426CBD06 /* Pods-CheckNorris-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B6AB648859A275DC328B86D213690C /* Pods-CheckNorris-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		923BF596D866AA0C7C73613B83E842FB /* Pods-CheckNorris-CheckNorrisUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C337A2C235124C7D7703A204720D4893 /* Pods-CheckNorris-CheckNorrisUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5986C25C299944A8BD999C9BEF8985C /* Pods-CheckNorrisTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5B879A4F17A63A38320DE5D3792822 /* Pods-CheckNorrisTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7B95626D4A9AFCFAB618193C02C6801 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		438B399777A7D9DED9BE96F3A86DC947 /* Pods-CheckNorris-CheckNorrisUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B803A9844C4AE7FD1E025AC1AC76EF7 /* Pods-CheckNorris-CheckNorrisUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		485785145BB4DA4C8C2813867A9D35A4 /* LinearCardAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46293F39597F97B4B03D7BC19EB0780 /* LinearCardAttributesAnimator.swift */; };
+		561D7CE673090D6889D16E7602793662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5AB05BF9E67946C7BBF8BA60614675BA /* LayoutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DB2956E36C1DA3C2A33DC1AF44289C /* LayoutAttributesAnimator.swift */; };
+		62E81C94B06643C0BA48F8C900E6369A /* PageAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0BF5CD91125335C0E1804591E398C0 /* PageAttributesAnimator.swift */; };
+		866FF37AA2907C21BCDA858E3F0F8354 /* RotateInOutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E18F887F80D416B93BE3A6A222D9261 /* RotateInOutAttributesAnimator.swift */; };
+		9095E27D20B580D02254F02F17E6E1BF /* AnimatedCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC5ED7ADEF3B523AAD2DD335E05546F /* AnimatedCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91B9BB4CF4F2487CA777BD4F6174E949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A379D7FA7306D07DA7A0FB0A9D7118D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AD6A3EB9B901B588F90226CBB6F58C69 /* UIView+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECE6557B011DA8550BE5B80888B574F /* UIView+Anchor.swift */; };
+		B27DC85AD7F5CBAB0ACB7FD15359768D /* AnimatedCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A178984AEE532CE0223B99378D6BC /* AnimatedCollectionViewLayout-dummy.m */; };
+		B5986C25C299944A8BD999C9BEF8985C /* Pods-CheckNorrisTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA66FD0F5BF6CC421A9A3A2345DE8DB3 /* Pods-CheckNorrisTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B99B7CD2CAA473E7C22E6E429969D2BA /* ZoomInOutAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54713BE410E726FCF750B269E4744A4 /* ZoomInOutAttributesAnimator.swift */; };
+		C9CB2F94A0BC94C21E404CC4494D051B /* CrossFadeAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DB80F24823043E85BA4D8AB37A2341 /* CrossFadeAttributesAnimator.swift */; };
+		CB0863EEFA753F1EB94DE359273659E9 /* AnimatedCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010A2FCEE0D054361D59EA528961B4B7 /* AnimatedCollectionViewLayout.swift */; };
+		D88B4B1D4E69F5042641DAB2B056BDBF /* Pods-CheckNorris-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E65825BEDC9034D6C6E677AF6A929A19 /* Pods-CheckNorris-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAAB382F46E1A771D02F72407BC75456 /* SnapInAttributesAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499FE420D6ED3547C5FDEC12C2C2F2FF /* SnapInAttributesAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		08BDC7EFFCFE88A8E26EC47CC50BC112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5771B182B07C28E13101CE371C584606;
+			remoteInfo = AnimatedCollectionViewLayout;
+		};
+		67DD993316242B75693763B3CA3768BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		73F85A1A8B2ED6B5445A2AF8689C0E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5771B182B07C28E13101CE371C584606;
+			remoteInfo = AnimatedCollectionViewLayout;
+		};
+		A62E72D84A8B9C8E992B5C4CD71E2B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
 		B10DEF0198A75713B93F386D4FF82464 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -29,51 +83,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010A2FCEE0D054361D59EA528961B4B7 /* AnimatedCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedCollectionViewLayout.swift; path = Sources/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.swift; sourceTree = "<group>"; };
+		01B7E008A7918F02CB25E90E4F810932 /* Pods-CheckNorris-CheckNorrisUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CheckNorris-CheckNorrisUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		01FB6BC1F9BF0BD7A7FDDAD01A94CC09 /* Pods-CheckNorris-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CheckNorris-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0983CCF4FE14754138272F5ECBE6BB3F /* Pods-CheckNorrisTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckNorrisTests-Info.plist"; sourceTree = "<group>"; };
 		10C9DD9E9584BE57FC14C0BF2801A8A2 /* Pods_CheckNorrisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CheckNorrisTests.framework; path = "Pods-CheckNorrisTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		12CD60AEB768B14907B5FAD8C580E8A0 /* Pods-CheckNorris-CheckNorrisUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckNorris-CheckNorrisUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		16D6863B46217B34CE6B8ACE50710C89 /* Pods-CheckNorrisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckNorrisTests.release.xcconfig"; sourceTree = "<group>"; };
-		1B5B879A4F17A63A38320DE5D3792822 /* Pods-CheckNorrisTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CheckNorrisTests-umbrella.h"; sourceTree = "<group>"; };
-		2FA22639CAA4DEBD91773AEBE2BBCF7A /* Pods-CheckNorris-CheckNorrisUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CheckNorris-CheckNorrisUITests-dummy.m"; sourceTree = "<group>"; };
+		1558C13F7B04D9C15E77A4F2E248F124 /* ParallaxAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParallaxAttributesAnimator.swift; path = Sources/AnimatedCollectionViewLayout/Animators/ParallaxAttributesAnimator.swift; sourceTree = "<group>"; };
+		1A1F7B2BE072E3DA4BA04CC012212859 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		1E093C1A774D58C9C217229201575FAF /* AnimatedCollectionViewLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnimatedCollectionViewLayout-Info.plist"; sourceTree = "<group>"; };
+		20216C14DAEA7CA5F1CEF78AFA643052 /* AnimatedCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
+		20F01E957AAF6E518591B3B0AADBFC1F /* Pods-CheckNorris-CheckNorrisUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckNorris-CheckNorrisUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		215E5FA24E06C6C4E1CEE4267E58166E /* Pods-CheckNorris-CheckNorrisUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CheckNorris-CheckNorrisUITests-dummy.m"; sourceTree = "<group>"; };
+		25FF41D042966FDE9C75BC92F2ADADD3 /* Pods-CheckNorrisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckNorrisTests.release.xcconfig"; sourceTree = "<group>"; };
+		2BE5D86EA88E332B1F1C15BACD383C36 /* Pods-CheckNorrisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckNorrisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CCDF9275527007ED6E336B05F57D1B1 /* Pods-CheckNorris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckNorris.debug.xcconfig"; sourceTree = "<group>"; };
+		2F956494F5E9F47B080DCBE41F263576 /* Pods-CheckNorris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckNorris.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34BDB14347F43FA9C152F7298AE1F452 /* Pods_CheckNorris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CheckNorris.framework; path = "Pods-CheckNorris.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		359F66771970D7774F3705C1162749ED /* Pods-CheckNorrisTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CheckNorrisTests-dummy.m"; sourceTree = "<group>"; };
-		374637BE2CDADC49D1081057A1367FB6 /* Pods-CheckNorris-CheckNorrisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckNorris-CheckNorrisUITests.release.xcconfig"; sourceTree = "<group>"; };
-		40A2991A37C4998201FF44E422949D73 /* Pods-CheckNorris-CheckNorrisUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CheckNorris-CheckNorrisUITests.modulemap"; sourceTree = "<group>"; };
-		4922DAD1B3B05925160AEC57E48945ED /* Pods-CheckNorris-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckNorris-Info.plist"; sourceTree = "<group>"; };
-		50EB27CC37C3358BC0BB0CDAD0023696 /* Pods-CheckNorris.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CheckNorris.modulemap"; sourceTree = "<group>"; };
-		700D367FEFCE16E0696239F30D8EAC69 /* Pods-CheckNorris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckNorris.debug.xcconfig"; sourceTree = "<group>"; };
-		7BD3FF4C1607ED7F817DCF7EA935ECFE /* Pods-CheckNorris-CheckNorrisUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckNorris-CheckNorrisUITests-Info.plist"; sourceTree = "<group>"; };
-		83B6AB648859A275DC328B86D213690C /* Pods-CheckNorris-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CheckNorris-umbrella.h"; sourceTree = "<group>"; };
+		3D0BF5CD91125335C0E1804591E398C0 /* PageAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageAttributesAnimator.swift; path = Sources/AnimatedCollectionViewLayout/Animators/PageAttributesAnimator.swift; sourceTree = "<group>"; };
+		3DF5F9D6E7ABC0F43307DFF12684F27D /* Pods-CheckNorris-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckNorris-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E18F887F80D416B93BE3A6A222D9261 /* RotateInOutAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotateInOutAttributesAnimator.swift; path = Sources/AnimatedCollectionViewLayout/Animators/RotateInOutAttributesAnimator.swift; sourceTree = "<group>"; };
+		3E2A178984AEE532CE0223B99378D6BC /* AnimatedCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
+		48B08BBF97CB472CB9DCDA3815960375 /* Pods-CheckNorris-CheckNorrisUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CheckNorris-CheckNorrisUITests.modulemap"; sourceTree = "<group>"; };
+		499FE420D6ED3547C5FDEC12C2C2F2FF /* SnapInAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapInAttributesAnimator.swift; path = Sources/AnimatedCollectionViewLayout/Animators/SnapInAttributesAnimator.swift; sourceTree = "<group>"; };
+		57081A06A8F49FEE2BB9EEE401A73A59 /* Pods-CheckNorris-CheckNorrisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckNorris-CheckNorrisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5ECE6557B011DA8550BE5B80888B574F /* UIView+Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchor.swift"; path = "Sources/AnimatedCollectionViewLayout/UIView+Anchor.swift"; sourceTree = "<group>"; };
+		67DB80F24823043E85BA4D8AB37A2341 /* CrossFadeAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossFadeAttributesAnimator.swift; path = Sources/AnimatedCollectionViewLayout/Animators/CrossFadeAttributesAnimator.swift; sourceTree = "<group>"; };
+		6B803A9844C4AE7FD1E025AC1AC76EF7 /* Pods-CheckNorris-CheckNorrisUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CheckNorris-CheckNorrisUITests-umbrella.h"; sourceTree = "<group>"; };
+		740A532A77A1DB34856C1B979BF3DF93 /* Pods-CheckNorris-CheckNorrisUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckNorris-CheckNorrisUITests-Info.plist"; sourceTree = "<group>"; };
+		775F957474EC61F36D4E1194775D0DD5 /* Pods-CheckNorrisTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CheckNorrisTests.modulemap"; sourceTree = "<group>"; };
+		821680B29FF1018DFD3161CF0E69C24B /* Pods-CheckNorris-CheckNorrisUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CheckNorris-CheckNorrisUITests-frameworks.sh"; sourceTree = "<group>"; };
+		826966C3F5C44A3BCDB4A02B6DB9C030 /* Pods-CheckNorris.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CheckNorris.modulemap"; sourceTree = "<group>"; };
 		84551D020BFD792F01F2857F3B2399B4 /* Pods_CheckNorris_CheckNorrisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CheckNorris_CheckNorrisUITests.framework; path = "Pods-CheckNorris-CheckNorrisUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		948E87A4A4B7048A05948451EE5E0999 /* Pods-CheckNorris-CheckNorrisUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CheckNorris-CheckNorrisUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89DB2956E36C1DA3C2A33DC1AF44289C /* LayoutAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutAttributesAnimator.swift; path = Sources/AnimatedCollectionViewLayout/LayoutAttributesAnimator.swift; sourceTree = "<group>"; };
+		8A162AD8AE6FC89DE2F960968CB72C7E /* AnimatedCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimatedCollectionViewLayout.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DAFA277C8D832DCA983AE3532ED8F20 /* Pods-CheckNorris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckNorris.release.xcconfig"; sourceTree = "<group>"; };
-		A3264F9F2FB311DD4C4AFCD77A4F661E /* Pods-CheckNorrisTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CheckNorrisTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B2F79E41AF99DC65ED545531CD548A51 /* Pods-CheckNorrisTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckNorrisTests-Info.plist"; sourceTree = "<group>"; };
-		BA6E31EA611DDC7FA75135EA3C2ADBE9 /* Pods-CheckNorris-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckNorris-acknowledgements.plist"; sourceTree = "<group>"; };
-		C337A2C235124C7D7703A204720D4893 /* Pods-CheckNorris-CheckNorrisUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CheckNorris-CheckNorrisUITests-umbrella.h"; sourceTree = "<group>"; };
-		C706755DEF375CCD5850097E7F4B1354 /* Pods-CheckNorris-CheckNorrisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckNorris-CheckNorrisUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1FDD303FB8F9F85C2419BBC0082C54E /* Pods-CheckNorris-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CheckNorris-dummy.m"; sourceTree = "<group>"; };
-		E5D23E6522B14A5BC3041EFB78C7CF92 /* Pods-CheckNorrisTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckNorrisTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E72D7C18A34F0233C352D52D8CEADD50 /* Pods-CheckNorris-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CheckNorris-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EC67976FCD4BEB203AD0D8C5CC44E48C /* Pods-CheckNorrisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckNorrisTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FE0325AB45633867D92479312F3B53EE /* Pods-CheckNorrisTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CheckNorrisTests.modulemap"; sourceTree = "<group>"; };
+		A48BAB5E84D8C9386AF5DDC8507CDB90 /* AnimatedCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedCollectionViewLayout.xcconfig; sourceTree = "<group>"; };
+		A54713BE410E726FCF750B269E4744A4 /* ZoomInOutAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomInOutAttributesAnimator.swift; path = Sources/AnimatedCollectionViewLayout/Animators/ZoomInOutAttributesAnimator.swift; sourceTree = "<group>"; };
+		A96B0DD376B48FEDC1D4CAF1B3A389B9 /* Pods-CheckNorrisTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckNorrisTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF0EA8B9F159C59922F8D87F12F61B6C /* Pods-CheckNorrisTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CheckNorrisTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA66FD0F5BF6CC421A9A3A2345DE8DB3 /* Pods-CheckNorrisTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CheckNorrisTests-umbrella.h"; sourceTree = "<group>"; };
+		CBC5ED7ADEF3B523AAD2DD335E05546F /* AnimatedCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
+		D0B055A81206B0BF1869B63DD4F84973 /* Pods-CheckNorris-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CheckNorris-frameworks.sh"; sourceTree = "<group>"; };
+		D44CC39AEF2D3FFD30243285B9146BBD /* AnimatedCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimatedCollectionViewLayout.framework; path = AnimatedCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46293F39597F97B4B03D7BC19EB0780 /* LinearCardAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearCardAttributesAnimator.swift; path = Sources/AnimatedCollectionViewLayout/Animators/LinearCardAttributesAnimator.swift; sourceTree = "<group>"; };
+		D94A308E1D533CEAB1BF25CB2F01536C /* Pods-CheckNorris-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckNorris-Info.plist"; sourceTree = "<group>"; };
+		E65825BEDC9034D6C6E677AF6A929A19 /* Pods-CheckNorris-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CheckNorris-umbrella.h"; sourceTree = "<group>"; };
+		EAA93785143982A3E22B0158DC33A38C /* Pods-CheckNorris-CheckNorrisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckNorris-CheckNorrisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EAD44DCD6EB6B48A6A8FA673A604EF78 /* Pods-CheckNorris-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CheckNorris-dummy.m"; sourceTree = "<group>"; };
+		EB5E546398EB3A702AC8F2921F1060FD /* Pods-CheckNorrisTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CheckNorrisTests-dummy.m"; sourceTree = "<group>"; };
+		F770C8EA2295FEBAB855EFE6898D14BD /* CubeAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeAttributesAnimator.swift; path = Sources/AnimatedCollectionViewLayout/Animators/CubeAttributesAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		62A1FA47B25B5301AED433DD84A6D216 /* Frameworks */ = {
+		863E024117F0EE95E9EE1B5EBB4A301A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B0C074BFBF0A6DFAF7699BE09D3572 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67F0ADA6DFA7E75DC5FCDF35F9A18C76 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7B95626D4A9AFCFAB618193C02C6801 /* Foundation.framework in Frameworks */,
+				A379D7FA7306D07DA7A0FB0A9D7118D3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,75 +152,109 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEEFDD7CFBE9E1F9E3F4470129145D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561D7CE673090D6889D16E7602793662 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1C63553338DF2EE243F0A2CF8335C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B9BB4CF4F2487CA777BD4F6174E949 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2EC01AA4C4DAF32525D229FBD742E1FD /* Pods-CheckNorrisTests */ = {
+		10EBC4BD955DB7519E3A9A2381A0C18F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE0325AB45633867D92479312F3B53EE /* Pods-CheckNorrisTests.modulemap */,
-				A3264F9F2FB311DD4C4AFCD77A4F661E /* Pods-CheckNorrisTests-acknowledgements.markdown */,
-				E5D23E6522B14A5BC3041EFB78C7CF92 /* Pods-CheckNorrisTests-acknowledgements.plist */,
-				359F66771970D7774F3705C1162749ED /* Pods-CheckNorrisTests-dummy.m */,
-				B2F79E41AF99DC65ED545531CD548A51 /* Pods-CheckNorrisTests-Info.plist */,
-				1B5B879A4F17A63A38320DE5D3792822 /* Pods-CheckNorrisTests-umbrella.h */,
-				EC67976FCD4BEB203AD0D8C5CC44E48C /* Pods-CheckNorrisTests.debug.xcconfig */,
-				16D6863B46217B34CE6B8ACE50710C89 /* Pods-CheckNorrisTests.release.xcconfig */,
-			);
-			name = "Pods-CheckNorrisTests";
-			path = "Target Support Files/Pods-CheckNorrisTests";
-			sourceTree = "<group>";
-		};
-		4A719FF26CDBC4DBA7A67936338D9F1E /* Pods-CheckNorris */ = {
-			isa = PBXGroup;
-			children = (
-				50EB27CC37C3358BC0BB0CDAD0023696 /* Pods-CheckNorris.modulemap */,
-				E72D7C18A34F0233C352D52D8CEADD50 /* Pods-CheckNorris-acknowledgements.markdown */,
-				BA6E31EA611DDC7FA75135EA3C2ADBE9 /* Pods-CheckNorris-acknowledgements.plist */,
-				D1FDD303FB8F9F85C2419BBC0082C54E /* Pods-CheckNorris-dummy.m */,
-				4922DAD1B3B05925160AEC57E48945ED /* Pods-CheckNorris-Info.plist */,
-				83B6AB648859A275DC328B86D213690C /* Pods-CheckNorris-umbrella.h */,
-				700D367FEFCE16E0696239F30D8EAC69 /* Pods-CheckNorris.debug.xcconfig */,
-				9DAFA277C8D832DCA983AE3532ED8F20 /* Pods-CheckNorris.release.xcconfig */,
-			);
-			name = "Pods-CheckNorris";
-			path = "Target Support Files/Pods-CheckNorris";
-			sourceTree = "<group>";
-		};
-		68FC2E83632D8B4A46F5DF6EABB00FD6 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4A719FF26CDBC4DBA7A67936338D9F1E /* Pods-CheckNorris */,
-				991BC2FC092AD35B3C59BA7B3A892628 /* Pods-CheckNorris-CheckNorrisUITests */,
-				2EC01AA4C4DAF32525D229FBD742E1FD /* Pods-CheckNorrisTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		991BC2FC092AD35B3C59BA7B3A892628 /* Pods-CheckNorris-CheckNorrisUITests */ = {
-			isa = PBXGroup;
-			children = (
-				40A2991A37C4998201FF44E422949D73 /* Pods-CheckNorris-CheckNorrisUITests.modulemap */,
-				948E87A4A4B7048A05948451EE5E0999 /* Pods-CheckNorris-CheckNorrisUITests-acknowledgements.markdown */,
-				12CD60AEB768B14907B5FAD8C580E8A0 /* Pods-CheckNorris-CheckNorrisUITests-acknowledgements.plist */,
-				2FA22639CAA4DEBD91773AEBE2BBCF7A /* Pods-CheckNorris-CheckNorrisUITests-dummy.m */,
-				7BD3FF4C1607ED7F817DCF7EA935ECFE /* Pods-CheckNorris-CheckNorrisUITests-Info.plist */,
-				C337A2C235124C7D7703A204720D4893 /* Pods-CheckNorris-CheckNorrisUITests-umbrella.h */,
-				C706755DEF375CCD5850097E7F4B1354 /* Pods-CheckNorris-CheckNorrisUITests.debug.xcconfig */,
-				374637BE2CDADC49D1081057A1367FB6 /* Pods-CheckNorris-CheckNorrisUITests.release.xcconfig */,
-			);
-			name = "Pods-CheckNorris-CheckNorrisUITests";
-			path = "Target Support Files/Pods-CheckNorris-CheckNorrisUITests";
-			sourceTree = "<group>";
-		};
-		B50570544C9674289F220F510F72A2F3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
+				D44CC39AEF2D3FFD30243285B9146BBD /* AnimatedCollectionViewLayout.framework */,
 				34BDB14347F43FA9C152F7298AE1F452 /* Pods_CheckNorris.framework */,
 				84551D020BFD792F01F2857F3B2399B4 /* Pods_CheckNorris_CheckNorrisUITests.framework */,
 				10C9DD9E9584BE57FC14C0BF2801A8A2 /* Pods_CheckNorrisTests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3DF5AC7A4CF4AB3C2BE9C51DA5709CC7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A1F7B2BE072E3DA4BA04CC012212859 /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		6849D9800A0DD0B9AA944A1714B21A2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A162AD8AE6FC89DE2F960968CB72C7E /* AnimatedCollectionViewLayout.modulemap */,
+				A48BAB5E84D8C9386AF5DDC8507CDB90 /* AnimatedCollectionViewLayout.xcconfig */,
+				3E2A178984AEE532CE0223B99378D6BC /* AnimatedCollectionViewLayout-dummy.m */,
+				1E093C1A774D58C9C217229201575FAF /* AnimatedCollectionViewLayout-Info.plist */,
+				20216C14DAEA7CA5F1CEF78AFA643052 /* AnimatedCollectionViewLayout-prefix.pch */,
+				CBC5ED7ADEF3B523AAD2DD335E05546F /* AnimatedCollectionViewLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AnimatedCollectionViewLayout";
+			sourceTree = "<group>";
+		};
+		718948C0234374F63229109EF7295BBA /* Pods-CheckNorris */ = {
+			isa = PBXGroup;
+			children = (
+				826966C3F5C44A3BCDB4A02B6DB9C030 /* Pods-CheckNorris.modulemap */,
+				01FB6BC1F9BF0BD7A7FDDAD01A94CC09 /* Pods-CheckNorris-acknowledgements.markdown */,
+				3DF5F9D6E7ABC0F43307DFF12684F27D /* Pods-CheckNorris-acknowledgements.plist */,
+				EAD44DCD6EB6B48A6A8FA673A604EF78 /* Pods-CheckNorris-dummy.m */,
+				D0B055A81206B0BF1869B63DD4F84973 /* Pods-CheckNorris-frameworks.sh */,
+				D94A308E1D533CEAB1BF25CB2F01536C /* Pods-CheckNorris-Info.plist */,
+				E65825BEDC9034D6C6E677AF6A929A19 /* Pods-CheckNorris-umbrella.h */,
+				2CCDF9275527007ED6E336B05F57D1B1 /* Pods-CheckNorris.debug.xcconfig */,
+				2F956494F5E9F47B080DCBE41F263576 /* Pods-CheckNorris.release.xcconfig */,
+			);
+			name = "Pods-CheckNorris";
+			path = "Target Support Files/Pods-CheckNorris";
+			sourceTree = "<group>";
+		};
+		7CD516CBC6DE3D6DFB3D3A347072FF1D /* Pods-CheckNorrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				775F957474EC61F36D4E1194775D0DD5 /* Pods-CheckNorrisTests.modulemap */,
+				BF0EA8B9F159C59922F8D87F12F61B6C /* Pods-CheckNorrisTests-acknowledgements.markdown */,
+				A96B0DD376B48FEDC1D4CAF1B3A389B9 /* Pods-CheckNorrisTests-acknowledgements.plist */,
+				EB5E546398EB3A702AC8F2921F1060FD /* Pods-CheckNorrisTests-dummy.m */,
+				0983CCF4FE14754138272F5ECBE6BB3F /* Pods-CheckNorrisTests-Info.plist */,
+				CA66FD0F5BF6CC421A9A3A2345DE8DB3 /* Pods-CheckNorrisTests-umbrella.h */,
+				2BE5D86EA88E332B1F1C15BACD383C36 /* Pods-CheckNorrisTests.debug.xcconfig */,
+				25FF41D042966FDE9C75BC92F2ADADD3 /* Pods-CheckNorrisTests.release.xcconfig */,
+			);
+			name = "Pods-CheckNorrisTests";
+			path = "Target Support Files/Pods-CheckNorrisTests";
+			sourceTree = "<group>";
+		};
+		ACDFF8CAF6CF42C47A93D4DEC0DC897B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				718948C0234374F63229109EF7295BBA /* Pods-CheckNorris */,
+				CBEFB5CC6356B9ABD8931504EF217EBE /* Pods-CheckNorris-CheckNorrisUITests */,
+				7CD516CBC6DE3D6DFB3D3A347072FF1D /* Pods-CheckNorrisTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B3B76C3AD0573FE5D8702EC62B5B8A97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E393D9B3F77C9C652D3286D65FCC1DF5 /* AnimatedCollectionViewLayout */,
+				E3EFCCA80B0DEF95CFACDCE02BDC0A7F /* SwiftLint */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -164,13 +265,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CBEFB5CC6356B9ABD8931504EF217EBE /* Pods-CheckNorris-CheckNorrisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48B08BBF97CB472CB9DCDA3815960375 /* Pods-CheckNorris-CheckNorrisUITests.modulemap */,
+				01B7E008A7918F02CB25E90E4F810932 /* Pods-CheckNorris-CheckNorrisUITests-acknowledgements.markdown */,
+				20F01E957AAF6E518591B3B0AADBFC1F /* Pods-CheckNorris-CheckNorrisUITests-acknowledgements.plist */,
+				215E5FA24E06C6C4E1CEE4267E58166E /* Pods-CheckNorris-CheckNorrisUITests-dummy.m */,
+				821680B29FF1018DFD3161CF0E69C24B /* Pods-CheckNorris-CheckNorrisUITests-frameworks.sh */,
+				740A532A77A1DB34856C1B979BF3DF93 /* Pods-CheckNorris-CheckNorrisUITests-Info.plist */,
+				6B803A9844C4AE7FD1E025AC1AC76EF7 /* Pods-CheckNorris-CheckNorrisUITests-umbrella.h */,
+				57081A06A8F49FEE2BB9EEE401A73A59 /* Pods-CheckNorris-CheckNorrisUITests.debug.xcconfig */,
+				EAA93785143982A3E22B0158DC33A38C /* Pods-CheckNorris-CheckNorrisUITests.release.xcconfig */,
+			);
+			name = "Pods-CheckNorris-CheckNorrisUITests";
+			path = "Target Support Files/Pods-CheckNorris-CheckNorrisUITests";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				B50570544C9674289F220F510F72A2F3 /* Products */,
-				68FC2E83632D8B4A46F5DF6EABB00FD6 /* Targets Support Files */,
+				B3B76C3AD0573FE5D8702EC62B5B8A97 /* Pods */,
+				10EBC4BD955DB7519E3A9A2381A0C18F /* Products */,
+				ACDFF8CAF6CF42C47A93D4DEC0DC897B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,6 +299,35 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E393D9B3F77C9C652D3286D65FCC1DF5 /* AnimatedCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				010A2FCEE0D054361D59EA528961B4B7 /* AnimatedCollectionViewLayout.swift */,
+				67DB80F24823043E85BA4D8AB37A2341 /* CrossFadeAttributesAnimator.swift */,
+				F770C8EA2295FEBAB855EFE6898D14BD /* CubeAttributesAnimator.swift */,
+				89DB2956E36C1DA3C2A33DC1AF44289C /* LayoutAttributesAnimator.swift */,
+				D46293F39597F97B4B03D7BC19EB0780 /* LinearCardAttributesAnimator.swift */,
+				3D0BF5CD91125335C0E1804591E398C0 /* PageAttributesAnimator.swift */,
+				1558C13F7B04D9C15E77A4F2E248F124 /* ParallaxAttributesAnimator.swift */,
+				3E18F887F80D416B93BE3A6A222D9261 /* RotateInOutAttributesAnimator.swift */,
+				499FE420D6ED3547C5FDEC12C2C2F2FF /* SnapInAttributesAnimator.swift */,
+				5ECE6557B011DA8550BE5B80888B574F /* UIView+Anchor.swift */,
+				A54713BE410E726FCF750B269E4744A4 /* ZoomInOutAttributesAnimator.swift */,
+				6849D9800A0DD0B9AA944A1714B21A2A /* Support Files */,
+			);
+			name = AnimatedCollectionViewLayout;
+			path = AnimatedCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		E3EFCCA80B0DEF95CFACDCE02BDC0A7F /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				3DF5AC7A4CF4AB3C2BE9C51DA5709CC7 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,19 +341,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		362F5D95B70F085B70DA7C2F0276BC36 /* Headers */ = {
+		6A771B3BA0DE03AF3E4A04EFF78C180F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				923BF596D866AA0C7C73613B83E842FB /* Pods-CheckNorris-CheckNorrisUITests-umbrella.h in Headers */,
+				438B399777A7D9DED9BE96F3A86DC947 /* Pods-CheckNorris-CheckNorrisUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2D453688ED3880F86ACBD31EF0E1ACC /* Headers */ = {
+		7024C1BA8DBE2CC91ECF45E7215BBA4C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77CB5D729A2234F366BB21E0426CBD06 /* Pods-CheckNorris-umbrella.h in Headers */,
+				9095E27D20B580D02254F02F17E6E1BF /* AnimatedCollectionViewLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E46A77CC535157C7B6FD03506AE7E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88B4B1D4E69F5042641DAB2B056BDBF /* Pods-CheckNorris-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,16 +370,18 @@
 /* Begin PBXNativeTarget section */
 		268496D23327539586702826A4FD67A8 /* Pods-CheckNorris */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FA8828BBF2829B182B9246E65B2D7FA /* Build configuration list for PBXNativeTarget "Pods-CheckNorris" */;
+			buildConfigurationList = 0049583D8A0FB4028EC1CB4D215A2ABA /* Build configuration list for PBXNativeTarget "Pods-CheckNorris" */;
 			buildPhases = (
-				E2D453688ED3880F86ACBD31EF0E1ACC /* Headers */,
-				B962A745EF9C1788AB126FAF1A5061EA /* Sources */,
-				62A1FA47B25B5301AED433DD84A6D216 /* Frameworks */,
-				03C5DF0338773ACA89AE21A74A843D5E /* Resources */,
+				B4E46A77CC535157C7B6FD03506AE7E4 /* Headers */,
+				51B773E96D7E6C166A5F1567CF221C13 /* Sources */,
+				FB1C63553338DF2EE243F0A2CF8335C6 /* Frameworks */,
+				F0F969CE58D7A4618F1B0022C2BC07C7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B97EE856EF4F3A5975E4B0A0520C47C5 /* PBXTargetDependency */,
+				04E162E2E90C253550EA67583D9D6A29 /* PBXTargetDependency */,
 			);
 			name = "Pods-CheckNorris";
 			productName = "Pods-CheckNorris";
@@ -232,20 +390,40 @@
 		};
 		2A4AA9719F116F15D190167510993D14 /* Pods-CheckNorris-CheckNorrisUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A8D8535FD7A546F92018B68876CA6D8 /* Build configuration list for PBXNativeTarget "Pods-CheckNorris-CheckNorrisUITests" */;
+			buildConfigurationList = CEC3923FE15418ED157D9E39931F13C7 /* Build configuration list for PBXNativeTarget "Pods-CheckNorris-CheckNorrisUITests" */;
 			buildPhases = (
-				362F5D95B70F085B70DA7C2F0276BC36 /* Headers */,
-				00FA4F246251271FF67BCC406FCFDFF7 /* Sources */,
-				67F0ADA6DFA7E75DC5FCDF35F9A18C76 /* Frameworks */,
-				713BD7A8FA2142391401A8FE13CFB267 /* Resources */,
+				6A771B3BA0DE03AF3E4A04EFF78C180F /* Headers */,
+				DDD655342DCACA79172C83CD42E97882 /* Sources */,
+				AEEFDD7CFBE9E1F9E3F4470129145D4E /* Frameworks */,
+				FA45AEED646B5DD5BE970276F49217B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				129CF2656E44A8927D6DF98848F62C37 /* PBXTargetDependency */,
+				DC10FBDFF9A77FF91E095BDACFB0FEC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-CheckNorris-CheckNorrisUITests";
+			productName = "Pods-CheckNorris-CheckNorrisUITests";
+			productReference = 84551D020BFD792F01F2857F3B2399B4 /* Pods_CheckNorris_CheckNorrisUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5771B182B07C28E13101CE371C584606 /* AnimatedCollectionViewLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB40AE1FF75BF3DC7159E8D0DC43CB40 /* Build configuration list for PBXNativeTarget "AnimatedCollectionViewLayout" */;
+			buildPhases = (
+				7024C1BA8DBE2CC91ECF45E7215BBA4C /* Headers */,
+				E2D0D0061CD48EA2DAA6895283342B1C /* Sources */,
+				863E024117F0EE95E9EE1B5EBB4A301A /* Frameworks */,
+				AB592CCCF3379DA003129DC48B2C2EF4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-CheckNorris-CheckNorrisUITests";
-			productName = "Pods-CheckNorris-CheckNorrisUITests";
-			productReference = 84551D020BFD792F01F2857F3B2399B4 /* Pods_CheckNorris_CheckNorrisUITests.framework */;
+			name = AnimatedCollectionViewLayout;
+			productName = AnimatedCollectionViewLayout;
+			productReference = D44CC39AEF2D3FFD30243285B9146BBD /* AnimatedCollectionViewLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C11AB851796056140BF347C00A7D626D /* Pods-CheckNorrisTests */ = {
@@ -284,33 +462,42 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B50570544C9674289F220F510F72A2F3 /* Products */;
+			productRefGroup = 10EBC4BD955DB7519E3A9A2381A0C18F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				5771B182B07C28E13101CE371C584606 /* AnimatedCollectionViewLayout */,
 				268496D23327539586702826A4FD67A8 /* Pods-CheckNorris */,
 				2A4AA9719F116F15D190167510993D14 /* Pods-CheckNorris-CheckNorrisUITests */,
 				C11AB851796056140BF347C00A7D626D /* Pods-CheckNorrisTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		03C5DF0338773ACA89AE21A74A843D5E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		713BD7A8FA2142391401A8FE13CFB267 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		938ADEE0B1DD061CCA6DE4A833E10B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB592CCCF3379DA003129DC48B2C2EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F969CE58D7A4618F1B0022C2BC07C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA45AEED646B5DD5BE970276F49217B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,14 +507,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00FA4F246251271FF67BCC406FCFDFF7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73A23FE0CEF346DCD478055464D0113D /* Pods-CheckNorris-CheckNorrisUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4282982B10EC18F98742EBBCF37394EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,29 +515,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B962A745EF9C1788AB126FAF1A5061EA /* Sources */ = {
+		51B773E96D7E6C166A5F1567CF221C13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				414ABBC6ACCCD0AB8F1C6B35899DE928 /* Pods-CheckNorris-dummy.m in Sources */,
+				1087DDB5BEE92B20B6A314DF8C2B9CAF /* Pods-CheckNorris-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD655342DCACA79172C83CD42E97882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396F78274FB64D8AF8F3101425B71AD5 /* Pods-CheckNorris-CheckNorrisUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D0D0061CD48EA2DAA6895283342B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B27DC85AD7F5CBAB0ACB7FD15359768D /* AnimatedCollectionViewLayout-dummy.m in Sources */,
+				CB0863EEFA753F1EB94DE359273659E9 /* AnimatedCollectionViewLayout.swift in Sources */,
+				C9CB2F94A0BC94C21E404CC4494D051B /* CrossFadeAttributesAnimator.swift in Sources */,
+				3115123237761DC9A59F2A4BABD4E858 /* CubeAttributesAnimator.swift in Sources */,
+				5AB05BF9E67946C7BBF8BA60614675BA /* LayoutAttributesAnimator.swift in Sources */,
+				485785145BB4DA4C8C2813867A9D35A4 /* LinearCardAttributesAnimator.swift in Sources */,
+				62E81C94B06643C0BA48F8C900E6369A /* PageAttributesAnimator.swift in Sources */,
+				34709768CC9DB6B015E44DC2E86F1C82 /* ParallaxAttributesAnimator.swift in Sources */,
+				866FF37AA2907C21BCDA858E3F0F8354 /* RotateInOutAttributesAnimator.swift in Sources */,
+				DAAB382F46E1A771D02F72407BC75456 /* SnapInAttributesAnimator.swift in Sources */,
+				AD6A3EB9B901B588F90226CBB6F58C69 /* UIView+Anchor.swift in Sources */,
+				B99B7CD2CAA473E7C22E6E429969D2BA /* ZoomInOutAttributesAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		04E162E2E90C253550EA67583D9D6A29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 67DD993316242B75693763B3CA3768BA /* PBXContainerItemProxy */;
+		};
+		129CF2656E44A8927D6DF98848F62C37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnimatedCollectionViewLayout;
+			target = 5771B182B07C28E13101CE371C584606 /* AnimatedCollectionViewLayout */;
+			targetProxy = 73F85A1A8B2ED6B5445A2AF8689C0E31 /* PBXContainerItemProxy */;
+		};
+		B97EE856EF4F3A5975E4B0A0520C47C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnimatedCollectionViewLayout;
+			target = 5771B182B07C28E13101CE371C584606 /* AnimatedCollectionViewLayout */;
+			targetProxy = 08BDC7EFFCFE88A8E26EC47CC50BC112 /* PBXContainerItemProxy */;
+		};
 		D6EF6428316E0401830AFCF479842744 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CheckNorris";
 			target = 268496D23327539586702826A4FD67A8 /* Pods-CheckNorris */;
 			targetProxy = B10DEF0198A75713B93F386D4FF82464 /* PBXContainerItemProxy */;
 		};
+		DC10FBDFF9A77FF91E095BDACFB0FEC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = A62E72D84A8B9C8E992B5C4CD71E2B57 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		30E68F8848B94BB79BC2E3121FD51DD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC67976FCD4BEB203AD0D8C5CC44E48C /* Pods-CheckNorrisTests.debug.xcconfig */;
+			baseConfigurationReference = 2BE5D86EA88E332B1F1C15BACD383C36 /* Pods-CheckNorrisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -394,12 +624,10 @@
 			};
 			name = Debug;
 		};
-		3AC219F9AA53EC6EC70D3D991FCEEB5A /* Debug */ = {
+		3386D3EFB26E6C1C884181BA1BCEF0C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C706755DEF375CCD5850097E7F4B1354 /* Pods-CheckNorris-CheckNorrisUITests.debug.xcconfig */;
+			baseConfigurationReference = A48BAB5E84D8C9386AF5DDC8507CDB90 /* AnimatedCollectionViewLayout.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -409,32 +637,31 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CheckNorris-CheckNorrisUITests/Pods-CheckNorris-CheckNorrisUITests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CheckNorris-CheckNorrisUITests/Pods-CheckNorris-CheckNorrisUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.modulemap";
+				PRODUCT_MODULE_NAME = AnimatedCollectionViewLayout;
+				PRODUCT_NAME = AnimatedCollectionViewLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		469543173B3BADC880AD056EB1886228 /* Release */ = {
+		33DB4F393DD2E3712E8A99E490497E9C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DAFA277C8D832DCA983AE3532ED8F20 /* Pods-CheckNorris.release.xcconfig */;
+			baseConfigurationReference = 2F956494F5E9F47B080DCBE41F263576 /* Pods-CheckNorris.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -468,6 +695,61 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41151E33F4473A2420F381AD70FA7D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CCDF9275527007ED6E336B05F57D1B1 /* Pods-CheckNorris.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CheckNorris/Pods-CheckNorris-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CheckNorris/Pods-CheckNorris.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84D7C4574E8F0F3095623F0E06F5B402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1F7B2BE072E3DA4BA04CC012212859 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -535,9 +817,45 @@
 			};
 			name = Debug;
 		};
-		AA293469AD7253A6264B5C3EC71ABDFB /* Release */ = {
+		9F85A8EE02F0920D06F99DF00212E462 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 374637BE2CDADC49D1081057A1367FB6 /* Pods-CheckNorris-CheckNorrisUITests.release.xcconfig */;
+			baseConfigurationReference = A48BAB5E84D8C9386AF5DDC8507CDB90 /* AnimatedCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.modulemap";
+				PRODUCT_MODULE_NAME = AnimatedCollectionViewLayout;
+				PRODUCT_NAME = AnimatedCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA5849EB514D42DD8EB7E99C85F417E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57081A06A8F49FEE2BB9EEE401A73A59 /* Pods-CheckNorris-CheckNorrisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -568,45 +886,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B9CEB7458BBE72063F26A334E30223D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 700D367FEFCE16E0696239F30D8EAC69 /* Pods-CheckNorris.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CheckNorris/Pods-CheckNorris-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CheckNorris/Pods-CheckNorris.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -614,7 +893,7 @@
 		};
 		C8BCB5AA7E7091CFF71F6BC6884B4557 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16D6863B46217B34CE6B8ACE50710C89 /* Pods-CheckNorrisTests.release.xcconfig */;
+			baseConfigurationReference = 25FF41D042966FDE9C75BC92F2ADADD3 /* Pods-CheckNorrisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -637,6 +916,61 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CheckNorrisTests/Pods-CheckNorrisTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEED47E09AF743F48544C1C4FEADEF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1F7B2BE072E3DA4BA04CC012212859 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4BD228221561B34F83460A99B665F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA93785143982A3E22B0158DC33A38C /* Pods-CheckNorris-CheckNorrisUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CheckNorris-CheckNorrisUITests/Pods-CheckNorris-CheckNorrisUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CheckNorris-CheckNorrisUITests/Pods-CheckNorris-CheckNorrisUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -714,11 +1048,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A8D8535FD7A546F92018B68876CA6D8 /* Build configuration list for PBXNativeTarget "Pods-CheckNorris-CheckNorrisUITests" */ = {
+		0049583D8A0FB4028EC1CB4D215A2ABA /* Build configuration list for PBXNativeTarget "Pods-CheckNorris" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3AC219F9AA53EC6EC70D3D991FCEEB5A /* Debug */,
-				AA293469AD7253A6264B5C3EC71ABDFB /* Release */,
+				41151E33F4473A2420F381AD70FA7D99 /* Debug */,
+				33DB4F393DD2E3712E8A99E490497E9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -741,11 +1075,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FA8828BBF2829B182B9246E65B2D7FA /* Build configuration list for PBXNativeTarget "Pods-CheckNorris" */ = {
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9CEB7458BBE72063F26A334E30223D8 /* Debug */,
-				469543173B3BADC880AD056EB1886228 /* Release */,
+				DEED47E09AF743F48544C1C4FEADEF47 /* Debug */,
+				84D7C4574E8F0F3095623F0E06F5B402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB40AE1FF75BF3DC7159E8D0DC43CB40 /* Build configuration list for PBXNativeTarget "AnimatedCollectionViewLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3386D3EFB26E6C1C884181BA1BCEF0C9 /* Debug */,
+				9F85A8EE02F0920D06F99DF00212E462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC3923FE15418ED157D9E39931F13C7 /* Build configuration list for PBXNativeTarget "Pods-CheckNorris-CheckNorrisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5849EB514D42DD8EB7E99C85F417E6 /* Debug */,
+				E4BD228221561B34F83460A99B665F27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
