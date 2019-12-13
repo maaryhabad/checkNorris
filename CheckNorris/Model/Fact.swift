@@ -1,8 +1,8 @@
 //
 //  Fact.swift
-//  CheckNorris
+//  Norris Facts
 //
-//  Created by Mariana Beilune Abad on 23/11/19.
+//  Created by Mariana Beilune Abad on 29/11/19.
 //  Copyright © 2019 Mariana Beilune Abad. All rights reserved.
 //
 
@@ -10,19 +10,27 @@ import Foundation
 
 class Fact {
     
-    var icon_url: String
-    var url: String
     var id: String
-    var icon: String
+    var url: String
     var value: String
-    var category: [String] = ["animal","career","celebrity","dev","explicit","fashion","food","history","money","movie","music","political","religion","science","sport","travel"]
+    var categorias: [String]
     
-    init(icon_url: String, url: String, id: String, icon: String, value: String, category: [String]) {
-        self.icon_url = icon_url
-        self.url = url
+    init(id: String, url: String, value: String, categorias: [String]) {
         self.id = id
-        self.icon = icon
+        self.url = url
         self.value = value
-        self.category = category
+        self.categorias = categorias
+    }
+    
+    static func mapToObject(factData: [String: Any]) -> Fact {
+        let id: String = factData["id"] as! String
+        let url: String = factData["url"] as! String
+        let value: String = factData["value"] as! String
+        let categorias: [String] = factData["categories"] as! [String]
+        
+        let newFact = Fact(id: id, url: url, value: value, categorias: categorias)
+        
+        return newFact
     }
 }
+

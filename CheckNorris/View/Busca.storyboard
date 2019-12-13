@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="c4I-Oq-KS4">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="vMx-df-fVe">
+            <objects>
+                <viewController id="c4I-Oq-KS4" customClass="ViewController" customModule="CheckNorris" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FI9-kD-Hfy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pnd-R2-spF">
+                                <rect key="frame" x="41.5" y="443" width="331" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="VGb-gy-4um">
+                                <rect key="frame" x="0.0" y="94" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="pnd-R2-spF" firstAttribute="width" secondItem="FI9-kD-Hfy" secondAttribute="width" multiplier="0.8" id="OCd-ZB-Tj3"/>
+                            <constraint firstItem="pnd-R2-spF" firstAttribute="centerX" secondItem="cnq-O9-7qY" secondAttribute="centerX" id="Pdr-RS-J4k"/>
+                            <constraint firstItem="pnd-R2-spF" firstAttribute="centerY" secondItem="cnq-O9-7qY" secondAttribute="centerY" id="Qdz-AM-B34"/>
+                            <constraint firstItem="VGb-gy-4um" firstAttribute="width" secondItem="FI9-kD-Hfy" secondAttribute="width" id="Rmy-Gh-gal"/>
+                            <constraint firstItem="VGb-gy-4um" firstAttribute="centerX" secondItem="cnq-O9-7qY" secondAttribute="centerX" id="jAd-gb-cL3"/>
+                            <constraint firstItem="VGb-gy-4um" firstAttribute="top" secondItem="cnq-O9-7qY" secondAttribute="top" constant="50" id="kJa-hT-zKi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cnq-O9-7qY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="aag-5j-W6C"/>
+                    <navigationItem key="navigationItem" title="Title" id="1eE-cB-KlS"/>
+                    <connections>
+                        <outlet property="factLabel" destination="pnd-R2-spF" id="xow-QD-HQm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fCC-Yv-4qU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1717" y="-48"/>
+        </scene>
+    </scenes>
+</document>

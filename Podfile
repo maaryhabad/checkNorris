@@ -7,7 +7,6 @@ target 'CheckNorris' do
 
   # Pods for CheckNorris
 
-	pod 'Moya', '~> 13.0'
 
   target 'CheckNorrisTests' do
     inherit! :search_paths

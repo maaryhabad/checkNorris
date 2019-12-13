@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,12 +17,13 @@
 		CD4FAA082388D55A00E4B92E /* CheckNorrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA072388D55A00E4B92E /* CheckNorrisTests.swift */; };
 		CD4FAA132388D55A00E4B92E /* CheckNorrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA122388D55A00E4B92E /* CheckNorrisUITests.swift */; };
 		CD4FAA222388D7BC00E4B92E /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4FAA202388D7BC00E4B92E /* Game.storyboard */; };
-		CD4FAA282388DA1500E4B92E /* SwipeableCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA272388DA1500E4B92E /* SwipeableCardViewController.swift */; };
 		CD4FAA2F2388DA5300E4B92E /* Categorias.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4FAA292388DA5200E4B92E /* Categorias.storyboard */; };
 		CD4FAA322388DA5300E4B92E /* Busca.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4FAA2C2388DA5300E4B92E /* Busca.storyboard */; };
 		CD4FAA332388DA5300E4B92E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA2D2388DA5300E4B92E /* SceneDelegate.swift */; };
 		CD4FAA342388DA5300E4B92E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA2E2388DA5300E4B92E /* ViewController.swift */; };
 		CD4FAA392388DB9800E4B92E /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAA382388DB9800E4B92E /* Fact.swift */; };
+		CDBB6E2123A3BF4D00BB1817 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBB6E2023A3BF4D00BB1817 /* APIRequest.swift */; };
+		CDBB6E2323A3BF7100BB1817 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBB6E2223A3BF7100BB1817 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,12 +63,13 @@
 		CD4FAA122388D55A00E4B92E /* CheckNorrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckNorrisUITests.swift; sourceTree = "<group>"; };
 		CD4FAA142388D55A00E4B92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD4FAA212388D7BC00E4B92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CheckNorris/Base.lproj/Game.storyboard; sourceTree = "<group>"; };
-		CD4FAA272388DA1500E4B92E /* SwipeableCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwipeableCardViewController.swift; path = CheckNorris/SwipeableCardViewController.swift; sourceTree = "<group>"; };
-		CD4FAA292388DA5200E4B92E /* Categorias.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Categorias.storyboard; path = CheckNorris/Categorias.storyboard; sourceTree = "<group>"; };
-		CD4FAA2C2388DA5300E4B92E /* Busca.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Busca.storyboard; path = CheckNorris/Busca.storyboard; sourceTree = "<group>"; };
-		CD4FAA2D2388DA5300E4B92E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = CheckNorris/SceneDelegate.swift; sourceTree = "<group>"; };
-		CD4FAA2E2388DA5300E4B92E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = CheckNorris/ViewController.swift; sourceTree = "<group>"; };
-		CD4FAA382388DB9800E4B92E /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fact.swift; path = Model/Fact.swift; sourceTree = "<group>"; };
+		CD4FAA292388DA5200E4B92E /* Categorias.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Categorias.storyboard; sourceTree = "<group>"; };
+		CD4FAA2C2388DA5300E4B92E /* Busca.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Busca.storyboard; sourceTree = "<group>"; };
+		CD4FAA2D2388DA5300E4B92E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD4FAA2E2388DA5300E4B92E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD4FAA382388DB9800E4B92E /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
+		CDBB6E2023A3BF4D00BB1817 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		CDBB6E2223A3BF7100BB1817 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		DE681458094742C2FD404ED5 /* Pods-CheckNorrisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckNorrisTests.release.xcconfig"; path = "Target Support Files/Pods-CheckNorrisTests/Pods-CheckNorrisTests.release.xcconfig"; sourceTree = "<group>"; };
 		F2AE382ACADB94E0DCAF8FEE /* Pods-CheckNorrisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckNorrisTests.debug.xcconfig"; path = "Target Support Files/Pods-CheckNorrisTests/Pods-CheckNorrisTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F45B0EFF181A2B721900E38A /* Pods_CheckNorris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckNorris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,7 +123,6 @@
 				F2AE382ACADB94E0DCAF8FEE /* Pods-CheckNorrisTests.debug.xcconfig */,
 				DE681458094742C2FD404ED5 /* Pods-CheckNorrisTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,17 +155,8 @@
 				CD4FAA362388DAA000E4B92E /* View */,
 				CD4FAA352388DA9B00E4B92E /* Model */,
 				CD4FA9F02388D55600E4B92E /* AppDelegate.swift */,
-				CD4FAA2C2388DA5300E4B92E /* Busca.storyboard */,
-				CD4FAA292388DA5200E4B92E /* Categorias.storyboard */,
-				CD4FAA2D2388DA5300E4B92E /* SceneDelegate.swift */,
-				CD4FAA2E2388DA5300E4B92E /* ViewController.swift */,
-				CD4FAA202388D7BC00E4B92E /* Game.storyboard */,
-				CD4FA9F62388D55600E4B92E /* Main.storyboard */,
 				CD4FA9F92388D55900E4B92E /* Assets.xcassets */,
-				CD4FA9FB2388D55900E4B92E /* LaunchScreen.storyboard */,
 				CD4FA9FE2388D55900E4B92E /* Info.plist */,
-				CD4FAA272388DA1500E4B92E /* SwipeableCardViewController.swift */,
-				CD4FAA382388DB9800E4B92E /* Fact.swift */,
 			);
 			path = CheckNorris;
 			sourceTree = "<group>";
@@ -190,6 +182,9 @@
 		CD4FAA352388DA9B00E4B92E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CDBB6E2023A3BF4D00BB1817 /* APIRequest.swift */,
+				CD4FAA382388DB9800E4B92E /* Fact.swift */,
+				CDBB6E2223A3BF7100BB1817 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -197,6 +192,11 @@
 		CD4FAA362388DAA000E4B92E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CD4FAA2C2388DA5300E4B92E /* Busca.storyboard */,
+				CD4FAA292388DA5200E4B92E /* Categorias.storyboard */,
+				CD4FAA202388D7BC00E4B92E /* Game.storyboard */,
+				CD4FA9F62388D55600E4B92E /* Main.storyboard */,
+				CD4FA9FB2388D55900E4B92E /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +204,8 @@
 		CD4FAA372388DADB00E4B92E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CD4FAA2D2388DA5300E4B92E /* SceneDelegate.swift */,
+				CD4FAA2E2388DA5300E4B92E /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -219,7 +221,6 @@
 				CD4FA9E92388D55600E4B92E /* Sources */,
 				CD4FA9EA2388D55600E4B92E /* Frameworks */,
 				CD4FA9EB2388D55600E4B92E /* Resources */,
-				68D1592DEFC8D5CACCB41F05 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,7 +258,6 @@
 				CD4FAA0A2388D55A00E4B92E /* Sources */,
 				CD4FAA0B2388D55A00E4B92E /* Frameworks */,
 				CD4FAA0C2388D55A00E4B92E /* Resources */,
-				A40F034BE2ED36CC162829EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -365,23 +365,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		68D1592DEFC8D5CACCB41F05 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CheckNorris/Pods-CheckNorris-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CheckNorris/Pods-CheckNorris-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CheckNorris/Pods-CheckNorris-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9C426226C25443887FE67B23 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,23 +385,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A40F034BE2ED36CC162829EA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CheckNorris-CheckNorrisUITests/Pods-CheckNorris-CheckNorrisUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CheckNorris-CheckNorrisUITests/Pods-CheckNorris-CheckNorrisUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CheckNorris-CheckNorrisUITests/Pods-CheckNorris-CheckNorrisUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AA9C5AEB815D20525867C55B /* [CP] Check Pods Manifest.lock */ = {
@@ -453,8 +419,9 @@
 				CD4FAA342388DA5300E4B92E /* ViewController.swift in Sources */,
 				CD4FAA332388DA5300E4B92E /* SceneDelegate.swift in Sources */,
 				CD4FAA392388DB9800E4B92E /* Fact.swift in Sources */,
+				CDBB6E2323A3BF7100BB1817 /* Model.swift in Sources */,
+				CDBB6E2123A3BF4D00BB1817 /* APIRequest.swift in Sources */,
 				CD4FA9F12388D55600E4B92E /* AppDelegate.swift in Sources */,
-				CD4FAA282388DA1500E4B92E /* SwipeableCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
